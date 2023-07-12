@@ -43,7 +43,7 @@
     },
     "scripts": {
         "start": "npm run start",
-        "build": "npm run build",
+        "build": "yarn build",
         "test": "npm run test",
         "eject": "npm run eject"
     },
@@ -69,6 +69,7 @@
         ]
     },
     "devDependencies": {
-        "babel-plugin-import": "^1.13.6"
+        "babel-plugin-import": "^1.13.6",
+        "eslint": "^8.0.0"
     }
 }
